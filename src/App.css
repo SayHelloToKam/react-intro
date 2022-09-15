@@ -10,13 +10,16 @@
 }
 
 .container-header {
-  background-color: azure;
+  background-color: rgb(218, 248, 248);
+  min-height: 5vh;
 }
 
 .container-profile {
   background-color: white;
+  min-height: 90vh;
 }
 
 .container-footer {
-  background-color: aqua;
+  background-color: rgb(218, 248, 248);
+  min-height: 5vh;
 }

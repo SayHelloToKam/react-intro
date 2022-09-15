@@ -4,13 +4,17 @@ import Footer from './Footer'
 import Profile from './Profile'
 
 function App() {
+
+  const userName = 'Jamsoi';
+  const title = 'Director';
+  const description = 'Making Life Better for All'
+
+
   return (
     <div className="container-app">
-      <h1>Hello Kamil</h1>
       <Header />
-      <Profile />
+      <Profile userName={userName} title={title} description={description}/>
       <Footer/>
-      <h4>©2022 NewSkillz</h4>
     </div>
   );
 }
